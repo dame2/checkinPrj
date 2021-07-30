@@ -70,7 +70,7 @@ public class LoginController {
 			
 			System.out.println(member);
 			
-			return "redirect:/index";
+			return "redirect:/";
 		} else {
 			return "redirect:/login?error=1";
 		}
